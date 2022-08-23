@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Calc
 {
     //класс Калькулятор
-    internal class Calc
+    public class Calc
     {
         //первый операнд
         public int value;
@@ -60,5 +60,6 @@ namespace Calc
             if (val > 0) return val;
             else return -val;
         }
+        public int Multiply2(int val) => this.value = this.value * val;
     }
 }
